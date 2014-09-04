@@ -1,1 +1,361 @@
-Hello World
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>Custom Hangouts Plugin</title>
+	<link rel="Stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body id="body">
+	<div id="lang"><a href="index.html?lang=es"><span id="es">Español</span></a> | <a href="index.html?lang=en"><span id="en">English</span></a></div>
+	<div id="float_logo" class='off'>
+		<img src="http://i.imgur.com/PtlpA8W.png" width="128" height="128"/>
+		<h1>Custom Hangouts</h1>
+	</div>
+	<div id="logo" ><img src="http://i.imgur.com/PtlpA8W.png" width="128" height="128"/></div>
+	<h1>Custom Hangouts Plugin</h1>
+		
+	<fieldset id="sections">
+		<a href="#description"><span class="trans" data-text="description"></span></a>
+		<a href="#downField"><span class="trans" data-text="download"></span></a>
+		<a href="#helpField"><span class="trans" data-text="helpindex"></span></a>
+		<a href="#screenshotsField"><span class="trans" data-text="screenshots"></span></a>
+		<a href="#pField"><span class="trans" data-text="packages"></span></a>
+		<a href="#contactme"><span class="trans" data-text="contactme"></span></a>
+		<a href="#donateField"><span class="trans" data-text="donate"></span></a>
+	</fieldset>
+	<fieldset id="space" style="display:none;">
+		<a href="#description"><span class="trans" data-text="description"></span></a>
+		<a href="#downField"><span class="trans" data-text="download"></span></a>
+		<a href="#helpField"><span class="trans" data-text="helpindex"></span></a>
+		<a href="#screenshotsField"><span class="trans" data-text="screenshots"></span></a>
+		<a href="#pField"><span class="trans" data-text="packages"></span></a>
+		<a href="#contactme"><span class="trans" data-text="contactme"></span></a>
+		<a href="#donateField"><span class="trans" data-text="donate"></span></a>
+	</fieldset>
+	<fieldset id="description"><legend><span class="trans" data-text="description"></span></legend>
+		<span class="trans" data-text="description1"></span>
+		<span class="trans" data-text="description2"></span>
+	</fieldset>
+	<fieldset id="downField"><legend><span class="trans" data-text="download"></span></legend>
+		<p>
+			<a href="https://chrome.google.com/webstore/detail/custom-hangout-emoticons/egaicdjagfbejjeihijpnelohejdhhjd"><img width="175px" height="166"  src="http://i.imgur.com/E6DwB0h.jpg"/></a>
+			<a href="https://addons.mozilla.org/es/firefox/addon/custom-hangout-emoticons/"><img width="175px" height="169"  src="http://i.imgur.com/8fb1Oh6.jpg"/></a>
+		</p>
+		<p class="text"><span class="trans" data-text="version"></span> 1.1.1.4</p>
+	</fieldset>
+	<fieldset id="helpField"><legend><span class="trans" data-text="helpindex"></span></legend>
+		<span class="trans" data-text="makesure"></span><br /><br />
+		<ul>
+			<li><span class="trans" data-text="emoticons"></span>
+				<ul>
+					<li> <a href="#insertemoticons" class="trans" data-text="insertemoticons"></a></li>
+					<li><a href="#autocomplete" class="trans" data-text="autocomplete"></a></li>
+					<li><a href="#emoticonsmenu" class="trans" data-text="emoticonsmenu"></a></li>
+					<li><a href="#addnewemoticons" class="trans" data-text="addnewemoticons"></a></li>
+					<li><a href="#captureemoticons" class="trans" data-text="captureemoticons"></a></li>
+					<li><a href="#renameemoticons" class="trans" data-text="renameemoticons"></a></li>
+				</ul>
+			</li>
+		</ul>
+		<ul>
+			<li><span class="trans" data-text="packages"></span>
+				<ul>
+					<li><a href="#checkpackemotis" class="trans" data-text="checkpackemotis"></a></li>
+					<li><a href="#addpackages" class="trans" data-text="addpackages"></a></li>
+					<li><a href="#togglepackages" class="trans" data-text="togglepackages"></a></li>
+					<li><a href="#createpackage" class="trans" data-text="createpackage"></a></li>
+				</ul>
+					</li>
+		</ul>
+		<ul>
+			<li><span class="trans" data-text="fontstyle"></span>
+				<ul>
+					<li><a href="#changefontstyle" class="trans" data-text="changefontstyle"></a></li>
+					<li><a href="#disablefontstyle" class="trans" data-text="disablefontstyle"></a></li>
+					<li><a href="#disablesync" class="trans" data-text="disablesync"></a></li>
+				</ul>
+			</li>
+		</ul>
+		<ul>
+			<li><span class="trans" data-text="youtuvevideos"></span>
+				<ul>
+					<li><a href="#insertvideos" class="trans" data-text="insertvideos"></a></li>
+					<li><a href="#autoplay" class="trans" data-text="autoplay"></a></li>
+					<li><a href="#disableautoplay" class="trans" data-text="disableautoplay"></a></li>
+				</ul>
+			</li>
+		</ul>
+		<ul>
+			<li><span class="trans" data-text="configuration"></span>
+				<ul>
+					<li><a href="#configurationpage" class="trans" data-text="configurationpage"></a></li>
+					<li><a href="#contactoptions" class="trans" data-text="contactoptions"></a></li>
+					<li><a href="#blacklist" class="trans" data-text="blacklist"></a></li>
+					<li><a href="#unknownimages" class="trans" data-text="unknownimages"></a></li>
+					<li><a href="#changelanguage" class="trans" data-text="changelanguage"></a></li>
+				</ul>
+			</li>
+		</ul>
+	</fieldset>
+	<fieldset id="screenshotsField"><legend><span class="trans" data-text="screenshots"></span></legend>
+		<p><img src="http://i.imgur.com/n21bdS6.png" width="610" height="978"></p>
+		<p><img src="http://i.imgur.com/Ak7b6Qw.png" width="262" height="381"> <img src="http://i.imgur.com/9Uvzjkj.png" width="262" height="381"></p>
+		<p><img src="http://i.imgur.com/Okk5rnA.png" width="507" height="383" class="imgTrans"></p>
+		<p><img src="http://i.imgur.com/HD1W5OU.png" width="596" height="381"></p>
+		<p><img src="http://i.imgur.com/uOeJCco.png" width="496" height="380" class="imgTrans"></p>
+		<p><img src="http://i.imgur.com/L1GgdWe.png" width="582" height="383" class="imgTrans"></p>
+	</fieldset>
+	<fieldset id="pField"><legend><span class="trans" data-text="packages"></span></legend>
+		<p class="info"><span class="trans" data-text="clickpackinfo"></span></p>
+		<div id="packages"></div>
+	</fieldset>
+	<fieldset id="peField" style="display:none;"><legend id="peName">Packages</legend>
+		<div id="packageEmoticons"></div>
+	</fieldset>
+	<fieldset id="insertemoticons"><legend><span class="trans" data-text="insertemoticons"></span></legend>
+		<span class="trans" data-text="makesure"></span><br /><br />
+		<span class="trans" data-text="insertemoticons1"></span>
+		<p><img src="http://i.imgur.com/5bJIp5w.png"></p>
+		<p><img src="http://i.imgur.com/KcP5qAZ.png"></p>
+		2) <a href="#autocomplete"><span class="trans" data-text="autocomplete"></span></a><br /><br />
+		3) <a href="#emoticonsmenu"><span class="trans" data-text="emoticonsmenu"></span></a>
+	</fieldset>
+	<fieldset id="autocomplete"><legend><span class="trans" data-text="autocomplete"></span></legend>
+		<span class="trans" data-text="autocomplete1"></span>
+		<p><img src="http://i.imgur.com/Ak7b6Qw.png"></p>
+		<span class="trans" data-text="autocomplete2"></span>
+	</fieldset>
+	<fieldset id="emoticonsmenu"><legend><span class="trans" data-text="emoticonsmenu"></span></legend>
+		<span class="trans" data-text="emoticonsmenu1"></span>
+		<p><img src="http://i.imgur.com/9Uvzjkj.png"></p>
+
+	</fieldset>
+	<fieldset id="addnewemoticons"><legend><span class="trans" data-text="addnewemoticons"></span></legend>
+		<span class="trans" data-text="addnewemoticons1"></span>
+		<a href="#configurationpage"><span class="trans" data-text="configurationpage"></span></a>
+		<span class="trans" data-text="addnewemoticons2"></span>
+		<p><a href="http://i.imgur.com/WbFu6tc.png" class="imgTrans"><img src="http://i.imgur.com/WbFu6tc.png" class="imgTrans"></a></p>
+		<span class="trans" data-text="addnewemoticons3"></span><br /><br />
+		2) <a href="#captureemoticons"><span class="trans" data-text="captureemoticons"></span></a>
+
+	</fieldset>
+	<fieldset id="captureemoticons"><legend><span class="trans" data-text="captureemoticons"></span></legend>
+		<span class="trans" data-text="captureemoticons1"></span>
+		<p><img src="http://i.imgur.com/Okk5rnA.png" class="imgTrans"></p>
+		<span class="trans" data-text="captureemoticons2"></span>
+		<p><img src="http://i.imgur.com/PqKtCvX.png" class="imgTrans"></p>
+	</fieldset>
+	<fieldset id="renameemoticons"><legend><span class="trans" data-text="renameemoticons"></span></legend>
+		<span class="trans" data-text="renameemoticons1"></span>
+		<a href="#configurationpage"><span class="trans" data-text="configurationpage"></span></a><br /><br />
+		<span class="trans" data-text="renameemoticons2"></span>
+		<p><a href="http://i.imgur.com/Q2UH0fj.png" class="imgTrans"><img src="http://i.imgur.com/Q2UH0fj.png" class="imgTrans"></a></p>
+		<span class="trans" data-text="renameemoticons3"></span><br /><br />
+		<span class="trans" data-text="renameemoticons4"></span>
+		<p><a href="http://i.imgur.com/OMODg3N.png" class="imgTrans"><img src="http://i.imgur.com/OMODg3N.png" class="imgTrans"></a></p>
+		<span class="trans" data-text="renameemoticons5"></span><br /><br />
+		<span class="trans" data-text="renameemoticons6"></span>
+		<a href="#contactme"><span class="trans" data-text="contactme"></span></a>.<br />
+		<a href="packages/onions.js">Onions</a>&nbsp;
+		<a href="packages/memes.js">Memes</a>&nbsp;
+		<a href="packages/monkey.js">Monkey</a>&nbsp;
+		<a href="packages/fox.js">Fox</a>&nbsp;
+		<a href="packages/rabbit.js">Rabbit</a>&nbsp;
+		<a href="packages/panda.js">Panda</a>&nbsp;
+		<a href="packages/robot.js">Robot</a>&nbsp;
+		<a href="packages/otros.js">Others</a>&nbsp;<br /><br />
+		<span class="trans" data-text="renameemoticons7"></span>
+		<a href="#addpackages"><span class="trans" data-text="addpackages"></span></a>
+	</fieldset>
+	<fieldset id="checkpackemotis"><legend><span class="trans" data-text="checkpackemotis"></span></legend>
+		<span class="trans" data-text="checkpackemotis1"></span>
+		<a href="#configurationpage"><span class="trans" data-text="configurationpage"></span></a>
+		<span class="trans" data-text="checkpackemotis2"></span>
+		<p><a href="http://i.imgur.com/OMODg3N.png" class="imgTrans"><img src="http://i.imgur.com/OMODg3N.png" class="imgTrans"></a></p>
+		<span class="trans" data-text="checkpackemotis3"></span><br /><br />
+		<span class="trans" data-text="checkpackemotis4"></span>
+		<a href="#emoticonsmenu"><span class="trans" data-text="emoticonsmenu"></span></a>:
+		<p><img src="http://i.imgur.com/9Uvzjkj.png"></p>
+	</fieldset>
+	<fieldset id="addpackages"><legend><span class="trans" data-text="addpackages"></span></legend>
+		<span class="trans" data-text="addpackages1"></span>
+		<a href="#configurationpage"><span class="trans" data-text="configurationpage"></span></a><br /><br />
+		<span class="trans" data-text="addpackages2"></span>
+		<p><a href="http://i.imgur.com/HqJEjOs.png" class="imgTrans"><img src="http://i.imgur.com/HqJEjOs.png" class="imgTrans"></a></p>
+		<span class="trans" data-text="addpackages3"></span>
+	</fieldset>
+	<fieldset id="togglepackages"><legend><span class="trans" data-text="togglepackages"></span></legend>
+		<span class="trans" data-text="togglepackages1"></span>
+		<a href="#configurationpage"><span class="trans" data-text="configurationpage"></span></a><br /><br />
+		<span class="trans" data-text="togglepackages2"></span>
+		<p><a href="http://i.imgur.com/kbNKqZh.png" class="imgTrans"><img src="http://i.imgur.com/kbNKqZh.png" class="imgTrans"></a></p>
+		<span class="trans" data-text="togglepackages3"></span>
+	</fieldset>
+	<fieldset id="createpackage"><legend><span class="trans" data-text="createpackage"></span></legend>
+		<span class="trans" data-text="createpackage1"></span><br /><br />
+		1) <a href="packages/onions.js">Onions</a>&nbsp;
+		<a href="packages/memes.js">Memes</a>&nbsp;
+		<a href="packages/monkey.js">Monkey</a>&nbsp;
+		<a href="packages/fox.js">Fox</a>&nbsp;
+		<a href="packages/rabbit.js">Rabbit</a>&nbsp;
+		<a href="packages/panda.js">Panda</a>&nbsp;
+		<a href="packages/robot.js">Robot</a>&nbsp;
+		<a href="packages/otros.js">Others</a>&nbsp;<br /><br />
+		2)
+		<a href="https://dl.dropboxusercontent.com/u/5152809/scripts/Custom_Hangouts_Plugin/icon_lists/pato.json">pato.json</a>&nbsp;
+		<a href="https://dl.dropboxusercontent.com/u/5152809/scripts/Custom_Hangouts_Plugin/icon_lists/zombies.json">zombies.json</a><br /><br />
+		3) <a href="#addpackages"><span class="trans" data-text="addpackages"></span></a><br /><br />
+		4) <a href="#contactme"><span class="trans" data-text="contactme"></span></a>
+	</fieldset>
+	<fieldset id="changefontstyle"><legend><span class="trans" data-text="changefontstyle"></span></legend>
+		<span class="trans" data-text="changefontstyle1"></span>
+		<a href="#configurationpage"><span class="trans" data-text="configurationpage"></span></a>
+		<span class="trans" data-text="changefontstyle2"></span>
+		<p><a href="http://i.imgur.com/zP6wxkN.png" class="imgTrans"><img src="http://i.imgur.com/zP6wxkN.png" class="imgTrans"></a></p>
+		<span class="trans" data-text="changefontstyle3"></span><br /><br />
+		<span class="trans" data-text="changefontstyle4"></span>
+		<p><img src="http://i.imgur.com/LJJlp2e.png"></p>
+
+	</fieldset>
+	<fieldset id="disablefontstyle"><legend><span class="trans" data-text="disablefontstyle"></span></legend>
+		<span class="trans" data-text="disablefontstyle1"></span>
+		<a href="#contactoptions"><span class="trans" data-text="contactoptions"></span></a>
+		<span class="trans" data-text="disablefontstyle2"></span>
+		<p><img src="http://i.imgur.com/uOeJCco.png" class="imgTrans"></p>
+		<span class="trans" data-text="disablefontstyle3"></span>
+		<a href="#configurationpage"><span class="trans" data-text="configurationpage"></span></a>
+		<span class="trans" data-text="disablefontstyle4"></span>
+		<p><a href="http://i.imgur.com/rHzhQNj.png" class="imgTrans"><img src="http://i.imgur.com/rHzhQNj.png" class="imgTrans"></a></p>
+		<span class="trans" data-text="disablefontstyle5"></span>
+
+	</fieldset>
+	<fieldset id="disablesync"><legend><span class="trans" data-text="disablesync"></span></legend>
+		<span class="trans" data-text="disablesync1"></span>
+		<a href="#contactoptions"><span class="trans" data-text="contactoptions"></span></a>
+		<span class="trans" data-text="disablesync2"></span>
+		<p><img src="http://i.imgur.com/uOeJCco.png" class="imgTrans"></p>
+		<span class="trans" data-text="disablesync3"></span>
+		<a href="#configurationpage"><span class="trans" data-text="configurationpage"></span></a>
+		<span class="trans" data-text="disablesync4"></span>
+		<p><a href="http://i.imgur.com/oX35KWu.png" class="imgTrans"><img src="http://i.imgur.com/oX35KWu.png" class="imgTrans"></a></p>
+		<span class="trans" data-text="disablesync5"></span>
+
+	</fieldset>
+	<fieldset id="insertvideos"><legend><span class="trans" data-text="insertvideos"></span></legend>
+		<span class="trans" data-text="insertvideos1"></span>
+		<p><img src="http://i.imgur.com/HD1W5OU.png"></p>
+		<span class="trans" data-text="insertvideos2"></span>
+		<a href="#autoplay"><span class="trans" data-text="autoplay"></span></a>
+
+	</fieldset>
+	<fieldset id="autoplay"><legend><span class="trans" data-text="autoplay"></span></legend>
+		<span class="trans" data-text="autoplay1"></span>
+		<a href="#disableautoplay"><span class="trans" data-text="disableautoplay"></span></a>
+
+	</fieldset>
+	<fieldset id="disableautoplay"><legend><span class="trans" data-text="disableautoplay"></span></legend>
+		<span class="trans" data-text="disableautoplay1"></span>
+		<a href="#configurationpage"><span class="trans" data-text="configurationpage"></span></a>
+		<span class="trans" data-text="disableautoplay2"></span>
+		<p><a href="http://i.imgur.com/unrtnHF.png" class="imgTrans"><img src="http://i.imgur.com/unrtnHF.png" class="imgTrans"></a></p>
+		<span class="trans" data-text="disableautoplay3"></span>
+
+	</fieldset>
+	<fieldset id="configurationpage"><legend><span class="trans" data-text="configurationpage"></span></legend>
+		<span class="trans" data-text="configurationpage1"></span>
+		<p><img src="http://i.imgur.com/L1GgdWe.png" class="imgTrans"></p>
+	</fieldset>
+	<fieldset id="contactoptions"><legend><span class="trans" data-text="contactoptions"></span></legend>
+		<span class="trans" data-text="contactoptions1"></span>
+		<p><img src="http://i.imgur.com/uOeJCco.png" class="imgTrans"></p>
+		<span class="trans" data-text="contactoptions2"></span>
+		<a href="#disablesync"><span class="trans" data-text="disablesync"></span></a><br />
+		<span class="trans" data-text="contactoptions3"></span>
+		<a href="#disablefontstyle"><span class="trans" data-text="disablefontstyle"></span></a><br />
+		<span class="trans" data-text="contactoptions4"></span>
+		<a href="#blacklist"><span class="trans" data-text="blacklist"></span></a><br />
+
+	</fieldset>
+	<fieldset id="blacklist"><legend><span class="trans" data-text="blacklist"></span></legend>
+		<span class="trans" data-text="blacklist1"></span>
+		<a href="#contactoptions"><span class="trans" data-text="contactoptions"></span></a>
+		<span class="trans" data-text="blacklist2"></span>
+		<p><img src="http://i.imgur.com/uOeJCco.png" class="imgTrans"></p>
+
+	</fieldset>
+	<fieldset id="unknownimages"><legend><span class="trans" data-text="unknownimages"></span></legend>
+		<span class="trans" data-text="unknownimages1"></span>
+		<a href="#configurationpage"><span class="trans" data-text="configurationpage"></span></a>
+		<span class="trans" data-text="unknownimages2"></span>
+		<p><a href="http://i.imgur.com/3Fp3kPo.png" class="imgTrans"><img src="http://i.imgur.com/3Fp3kPo.png" class="imgTrans"></a></p>
+		<span class="trans" data-text="unknownimages3"></span>
+		<a href="#captureemoticons"><span class="trans" data-text="captureemoticons"></span></a>.
+
+	</fieldset>
+	<fieldset id="changelanguage"><legend><span class="trans" data-text="changelanguage"></span></legend>
+		<span class="trans" data-text="changelanguage1"></span>
+		<a href="#configurationpage"><span class="trans" data-text="configurationpage"></span></a>
+		<span class="trans" data-text="changelanguage2"></span>
+		<p><a href="http://i.imgur.com/YYJa0T1.png" class="imgTrans"><img src="http://i.imgur.com/YYJa0T1.png" class="imgTrans"></a></p>
+		<span class="trans" data-text="changelanguage3"></span>
+
+	</fieldset>
+	<fieldset id="contactme"><legend><span class="trans" data-text="contactme"></span></legend>
+		<span class="trans" data-text="contactme1"></span>
+	</fieldset>
+	<fieldset id="donateField"><legend><span class="trans" data-text="donate"></span></legend>
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+			">
+			<input id="donatebutton" type="image" src="https://www.paypalobjects.com/es_ES/ES/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal. La forma rápida y segura de pagar en Internet.">
+			<img alt="" border="0" src="https://www.paypalobjects.com/es_ES/i/scr/pixel.gif" width="1" height="1">
+		</form>
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+		<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+			">
+			<input type="image" src="http://i.imgur.com/vdOkUMI.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+			<img alt="" border="0" src="https://www.paypalobjects.com/es_ES/i/scr/pixel.gif" width="1" height="1">
+		</form>
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIHRwYJKoZIhvcNAQcEoIIHODCCBzQCAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYA9rAFNDPjGQBjOmjFek+j8asrqWkCCFJeXLUIywFMmb2JDEWFGNJcpHM5B/nG5YTRujN46x+4UcqnXCcLLTE+WH2tb3AwSP2ulZdB6EZK65nFf0LupqwCCl0CyMQOxJJWCxx37ALYcrxR2wqkY6c9xVHhQeJZZ+wiSBwcI1P0nEzELMAkGBSsOAwIaBQAwgcQGCSqGSIb3DQEHATAUBggqhkiG9w0DBwQIWfSl5wXgjQ6AgaAVzwqGAStBs71zfd8T5Uu4myW09xyPh/yzNqjZPY+cfGZlToNmYkmBPsvfsRopJoCX0uDQ3MaKooCNauef5J5pTw2QYseULuhfe7eEMELtV2j8RANq6t9BvpaW4KgK+f0mlZCFXRqvyRp8Aft+YSRZnCoJKhgOZUX6o3khs1qYk8cacj176WsY/z/h/oWYKJZbwzr9jm2orPZOykZRg66LoIIDhzCCA4MwggLsoAMCAQICAQAwDQYJKoZIhvcNAQEFBQAwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMB4XDTA0MDIxMzEwMTMxNVoXDTM1MDIxMzEwMTMxNVowgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBR07d/ETMS1ycjtkpkvjXZe9k+6CieLuLsPumsJ7QC1odNz3sJiCbs2wC0nLE0uLGaEtXynIgRqIddYCHx88pb5HTXv4SZeuv0Rqq4+axW9PLAAATU8w04qqjaSXgbGLP3NmohqM6bV9kZZwZLR/klDaQGo1u9uDb9lr4Yn+rBQIDAQABo4HuMIHrMB0GA1UdDgQWBBSWn3y7xm8XvVk/UtcKG+wQ1mSUazCBuwYDVR0jBIGzMIGwgBSWn3y7xm8XvVk/UtcKG+wQ1mSUa6GBlKSBkTCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb22CAQAwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOBgQCBXzpWmoBa5e9fo6ujionW1hUhPkOBakTr3YCDjbYfvJEiv/2P+IobhOGJr85+XHhN0v4gUkEDI8r2/rNk1m0GA8HKddvTjyGw/XqXa+LSTlDYkqI8OwR8GEYj4efEtcRpRYBxV8KxAW93YDWzFGvruKnnLbDAF6VR5w/cCMn5hzGCAZowggGWAgEBMIGUMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbQIBADAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMTMwOTE1MDMyMTIxWjAjBgkqhkiG9w0BCQQxFgQUVHIA5jMtGyxCubGkLmOSU8TeS70wDQYJKoZIhvcNAQEBBQAEgYBn3W2Cy2CwvluxkaiDt7XquNrzNhvYWzcUsgE01u5aiyMS/Qv6vN4wFQC0lA4iNE87SnjKcbKTAPEysIAO03wrFGg5jZTjp8TTtJUzFpAtnyybhJkhN1czf4wJaxTMWFNhNxsl6+amP2fE+TlG4wBgH8ENXe9nml1LxGdWMXhXUw==-----END PKCS7-----
+			">
+			<input type="image" src="http://i.imgur.com/hr0A46F.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+			<img alt="" border="0" src="https://www.paypalobjects.com/es_ES/i/scr/pixel.gif" width="1" height="1">
+		</form>
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIHRwYJKoZIhvcNAQcEoIIHODCCBzQCAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYBNJFy8XPe5pYDM4wdUIEv5Zs2g196AOm7PP79Xh5/5P5MbvZHndLxULxX9rPDl/fll2+kSt4zHwOaeXfhPtdfovppQiIJwikZK0c46WLF+6Ymr1JdViz6lVocir6tENi3oiXVib64G5Ri/KSVkXFMwwDR3UA7m0T9Fq3KAC48OIDELMAkGBSsOAwIaBQAwgcQGCSqGSIb3DQEHATAUBggqhkiG9w0DBwQIM82kPCqadwaAgaBhlaDngOYcuy9HhBPagYk8jKaXU488WWUvI3hAyZ0TkKrl7XCBbQyIID+CpSOGRDh34Q65TBgLfH4Gy7OKlR1fQXEQFUgzV+p1sLO+OgPOJC5OL5ouBPuF8FdXu3ldwbjkAZ15D74mkCoXQqqLYJW2y3IuC7cyewtKFrTiJzLTOopHtgqGqFwD2BuB0MCSJmpZiv5nD9+8/v6MfW7/cqgPoIIDhzCCA4MwggLsoAMCAQICAQAwDQYJKoZIhvcNAQEFBQAwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMB4XDTA0MDIxMzEwMTMxNVoXDTM1MDIxMzEwMTMxNVowgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBR07d/ETMS1ycjtkpkvjXZe9k+6CieLuLsPumsJ7QC1odNz3sJiCbs2wC0nLE0uLGaEtXynIgRqIddYCHx88pb5HTXv4SZeuv0Rqq4+axW9PLAAATU8w04qqjaSXgbGLP3NmohqM6bV9kZZwZLR/klDaQGo1u9uDb9lr4Yn+rBQIDAQABo4HuMIHrMB0GA1UdDgQWBBSWn3y7xm8XvVk/UtcKG+wQ1mSUazCBuwYDVR0jBIGzMIGwgBSWn3y7xm8XvVk/UtcKG+wQ1mSUa6GBlKSBkTCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb22CAQAwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOBgQCBXzpWmoBa5e9fo6ujionW1hUhPkOBakTr3YCDjbYfvJEiv/2P+IobhOGJr85+XHhN0v4gUkEDI8r2/rNk1m0GA8HKddvTjyGw/XqXa+LSTlDYkqI8OwR8GEYj4efEtcRpRYBxV8KxAW93YDWzFGvruKnnLbDAF6VR5w/cCMn5hzGCAZowggGWAgEBMIGUMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbQIBADAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMTMwOTE1MDMyNzI2WjAjBgkqhkiG9w0BCQQxFgQUwLHCus+N16qzl8V4B1KuOhiwmacwDQYJKoZIhvcNAQEBBQAEgYCj9zSQ0nA5rGbsdk/28ZXvcVIq950Gkd9SXd6D+o6v72JLBmtTGL1Nv3kekXodMc/FtVcos5bFbvYDEDhznF5zHS1JjQATRR9pjeKXeoqGm4bNU+nPo35XnWuxh/i5qc8BgHjRKF2XlCxF95RbKfd+NzTSvi6wiD58MZYBr/7BBQ==-----END PKCS7-----
+			">
+			<input type="image" src="http://i.imgur.com/W2qCBwq.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+			<img alt="" border="0" src="https://www.paypalobjects.com/es_ES/i/scr/pixel.gif" width="1" height="1">
+		</form>
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+			">
+			<input type="image" src="http://i.imgur.com/JjsVpgs.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+			<img alt="" border="0" src="https://www.paypalobjects.com/es_ES/i/scr/pixel.gif" width="1" height="1">
+		</form>
+	</fieldset>
+</body>
+
+<script src="jquery-1.10.2.min.js"></script>
+<script src="options.js"></script>
+<script src="languages.js"></script>
+<script src="browserSpecific.js"></script>
+
+<script src="packages/links.js"></script>  
+<script src="packages/onions.js"></script>  
+<script src="packages/memes.js"></script>  
+<script src="packages/monkey.js"></script>  
+<script src="packages/fox.js"></script> 
+<script src="packages/rabbit.js"></script>
+<script src="packages/panda.js"></script>
+<script src="packages/robot.js"></script>
+<script src="packages/otros.js"></script>
+
+</html>

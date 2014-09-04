@@ -1,0 +1,224 @@
+body {
+	width: 755px;
+	margin: 0 auto;
+	font-family: sans, sans-serif;
+	font-size: 14px;
+	padding-bottom: 15px;
+}
+
+h1 {
+	text-align: center;
+	color: rgb(82, 168, 61);
+	text-shadow: 1px 1px 3px rgba(82, 168, 61, 1);
+}
+
+#logo {
+	text-align: center;
+}
+
+legend {
+font-weight: bold;
+font-size: 12px;
+color: #777;
+}
+
+#demoText {
+	text-align: center;
+	display: block;
+}
+
+#colorHexa {
+	margin-left: 30px;
+}
+
+button {
+	float: right;
+}
+
+.params {
+width: 485px;
+margin: 0 auto;
+}
+
+.params li{
+list-style: none;
+margin: 5px 0;
+}
+
+.param {
+display: inline-block;
+}
+
+.emoti {
+	width: 235px;
+}
+
+.label {
+display: inline-block;
+width: 50%
+}
+.CodeMirror {
+	width: 721px;
+	border: 1px solid lightgray;
+}
+
+.smileyEmoti{
+	margin: 5px 0;
+	vertical-align:middle;
+	max-width: 188px;
+	border: 4px inset #98BF21;
+	padding: 3px;
+}
+.smileyPack{
+	margin:0 30px;
+	vertical-align:middle;
+	max-width: 96px;
+	border: 4px inset #98BF21;
+	padding: 3px;
+	cursor: pointer;
+}
+.smileyPack.inactive {
+	border: 4px inset #bf2121;
+	cursor: default;
+}
+		
+.text{	
+	font-family: Gill Sans, Verdana;
+	font-size: 11px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	text-align:center;
+	//margin-bottom: 20px;
+	margin-top: -15px;
+}
+p{
+	text-align: center;
+}
+td.package.active{
+	border: 2px solid gray;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px #888;
+}
+
+td {
+	position: relative;
+	padding-bottom: 20px;
+	border: 2px solid white;
+	padding: 5px 0px;
+}
+
+.toggleActive {
+	//position: absolute;
+	//top: 5px;
+	//right: 42px;
+	margin-top: 3px;
+	opacity: 0.7;
+}
+
+.toggleActive:hover {
+	opacity: 1;
+}
+
+.info {
+	color: gray;
+	font-style: italic;
+	font-size: 10px;
+}
+
+.addNew {
+	text-align: center;
+	font-size: 12px;
+	border: 1px solid lightgray;
+	padding: 3px;
+	margin-bottom: 10px;
+}
+
+.addNew input {
+	margin-right: 15px;
+}
+
+input[type="text urlbig"] {
+	width: 83%;
+}
+
+input[type="text urlsmall"] {
+	width: 50%;
+}
+
+.text.emotiName:focus {
+	background: #defcef;
+}
+
+#sections, #space {
+	text-align: center;
+}
+
+#sections a, #space a {
+	text-decoration: none;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 11px;
+	color: #777;
+}
+
+#sections a:after, #space a:after {
+	content: " |"
+}
+
+#sections a:last-child:after, #space a:last-child:after {
+	content: ""
+}
+
+#sections.stick {
+	position: fixed;
+	width: 709px;
+	background-color: white;
+	top: 0px;
+	border: 1px solid lightgray;
+	//opacity: 0.97;
+	z-index: 999;
+}
+
+#donateField form {
+	float: left;
+	margin-top: 13px;
+	margin-left: 39px;
+}
+
+fieldset {
+	text-align: justify;
+	font-size: 13px;
+	padding: 10px 20px;
+}
+
+fieldset img {
+	max-width: 700px;
+}
+
+.example {
+	padding-left: 20px;
+	font-style: italic;
+}
+
+#lang {
+	font-size: 12px;
+	color: #777;
+	position: fixed;
+	right: 12px;
+	z-index: 99999;
+}
+
+#float_logo.on{
+	position: fixed;
+	text-align: center;
+	margin-left: -252px;
+    font-family: arial;   
+}
+
+#float_logo.off{
+	display: none;
+}
+
+#packages {
+	min-height: 325px;
+}
