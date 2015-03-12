@@ -15,7 +15,8 @@ var texts = {
 				'Change your font style.',
 				'Create your own emoticon packages and share them with your friends. ',
 				'And more...</div>',
-				'***Warning: Does not work if you have the official Hangout extension, as it replaces gmail and G+ web hangouts to a desktop app.***',
+				'***Warning: Some features do not work if you have the official Hangout extension installed.***',
+				// '***Warning: Does not work if you have the official Hangout extension, as it replaces gmail and G+ web hangouts to a desktop app.***',
 				'***This is not an official google extension, so google will not provide support or maintenance.***'].join('<br />'),
 		'es': ['<div class="example">Utiliza emoticonos personalizados en tus conversaciones.',
 				'Previsualiza todas las imágenes.',
@@ -23,7 +24,8 @@ var texts = {
 				'Cambia el estilo de la fuente.',
 				'Crea tus paquetes de emoticonos y compártelos con tus amigos. ',
 				'Y más...</div>',
-				'***Advertencia: No funciona si tienes instalada la extensión oficial de Hangouts, ya que esta reemplaza las ventanas de conversación web de gmail y google+ por una aplicación de escritorio.***',
+				'***Advertencia: Algunas funciones no están disponibles si tienes instalada la extensión oficial de Hangouts.***',
+				// '***Advertencia: No funciona si tienes instalada la extensión oficial de Hangouts, ya que esta reemplaza las ventanas de conversación web de gmail y google+ por una aplicación de escritorio.***',
 				'***No es una extensión oficial de google, por lo tanto google no proporcionará soporte ni mantenimiento.***'].join('<br />')
 	},
 	"download": {
@@ -92,10 +94,12 @@ var texts = {
 	},
 	"makesure": {
 		'en': ['First of all:', '',
-				'!) Make sure you do NOT have the <a href="https://chrome.google.com/webstore/detail/hangouts/nckgahadagoaajjgafhacjanaoiihapd">Official Google Hangouts Extension</a> installed, because it is incompatible.',
+				'!) Contextual menu options, after right click, do not work if you have the <a href="https://chrome.google.com/webstore/detail/hangouts/nckgahadagoaajjgafhacjanaoiihapd">Official Google Hangouts Extension</a> installed.',
+				// '!) Make sure you do NOT have the <a href="https://chrome.google.com/webstore/detail/hangouts/nckgahadagoaajjgafhacjanaoiihapd">Official Google Hangouts Extension</a> installed, because it is incompatible.',
 				'!) Make sure to have gmail hangouts active, or follow <a href="https://support.google.com/hangouts/answer/3115176?hl=en">this guide</a>.'].join('<br />'),
 		'es': ['Antes de empezar:', '',
-				'!) Asegurate de NO tener instalada la <a href="https://chrome.google.com/webstore/detail/hangouts/nckgahadagoaajjgafhacjanaoiihapd">Extension oficial Google Hangouts</a>, ya que es incompatible.',
+				'!) Las opciones del menú contextual, tras pulsar el botón derecho de ratón, no funcionan si tienes instalada la <a href="https://chrome.google.com/webstore/detail/hangouts/nckgahadagoaajjgafhacjanaoiihapd">Extension oficial Google Hangouts</a>',
+				// '!) Asegurate de NO tener instalada la <a href="https://chrome.google.com/webstore/detail/hangouts/nckgahadagoaajjgafhacjanaoiihapd">Extension oficial Google Hangouts</a>, ya que es incompatible.',
 				'!) Asegurate de tener activos los hangouts en gmail, o sigue <a href="https://support.google.com/hangouts/answer/3115176?hl=es">esta guia</a>.'].join('<br />')
 	},
 	"insertemoticons1": {
