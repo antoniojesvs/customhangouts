@@ -255,7 +255,7 @@ var texts = {
 		'es': 'Ve a la sección "Paquetes":'
 	},
 	"togglepackages3": {
-		'en': 'Click a status button (1). Green packages are active and red packages are inactive. Emoticons from inactive packages can\'t be put in conversations.',
+		'en': 'Click a status button (1). Green packages are active and red packages are inactive. Emoticons from inactive packages can\'t be used in conversations.',
 		'es': 'Haz click en un botón de estado (1). Los paquetes verdes están activos y los rojos inactivos. Los emoticonos de paquetes inactivos no se pueden poner en las conversaciones.'
 	},
 	"createpackage": {
