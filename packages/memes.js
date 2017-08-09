@@ -79,7 +79,7 @@ var memesPackage = {
 		"me1raisins"				:"https://i.imgur.com/p2idF.gif",
 		"meretarded"				:"https://i.imgur.com/QQ5rG.png",
 		"merisaloca"				:"https://i.imgur.com/QG3bWNH.gif",
-		"mesantaawesome"			:"https://i.imgur.com/jl9cOAO.gif",
+		"mesantaawesome"			:"https://i.imgur.com/KlCvfHQ.gif",
 		"mesexykardynal"			:"https://i.imgur.com/SIDAOZO.gif",
 		"mesiclaro"					:"https://i.imgur.com/V9aN2.png",
 		"mesoclose"					:"https://i.imgur.com/rcNzH.jpg",

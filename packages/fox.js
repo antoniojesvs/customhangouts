@@ -4,22 +4,22 @@ var foxPackage = {
 	"emoticons": {
 	
 		// Fox
-		"foamor" 				:"http://imgur.com/Fyg8Z.gif",
-		"fobatfox" 				:"http://imgur.com/6F9jC.gif",
-		"fobye" 				:"http://imgur.com/qomrh.gif",
-		"focagoen" 				:"http://imgur.com/JGnxl.gif",
-		"focomer" 				:"http://imgur.com/sfGgo.gif",
-		"foein" 				:"http://imgur.com/g0OSH.gif",
-		"foespiar" 				:"http://imgur.com/xIgnj.gif",
-		"foghost" 				:"http://imgur.com/n7wlW.gif",
-		"fogota" 				:"http://imgur.com/jpvNp.gif",
-		"follanto" 				:"http://imgur.com/BkQhu.gif",
-		"foomg" 				:"http://imgur.com/XFvlU.gif",
-		"foooohh" 				:"http://imgur.com/7cX1T.gif",
-		"fotimido" 				:"http://imgur.com/NOqg2.gif",
-		"fovilvil" 				:"http://imgur.com/Yd5a9.gif",
-		"foXD" 					:"http://imgur.com/F5SFY.gif",
-		"foyay" 				:"http://imgur.com/JyqQF.gif"
+		"foamor" 				:"https://imgur.com/Fyg8Z.gif",
+		"fobatfox" 				:"https://imgur.com/6F9jC.gif",
+		"fobye" 				:"https://imgur.com/qomrh.gif",
+		"focagoen" 				:"https://imgur.com/JGnxl.gif",
+		"focomer" 				:"https://imgur.com/sfGgo.gif",
+		"foein" 				:"https://imgur.com/g0OSH.gif",
+		"foespiar" 				:"https://imgur.com/xIgnj.gif",
+		"foghost" 				:"https://imgur.com/n7wlW.gif",
+		"fogota" 				:"https://imgur.com/jpvNp.gif",
+		"follanto" 				:"https://imgur.com/BkQhu.gif",
+		"foomg" 				:"https://imgur.com/XFvlU.gif",
+		"foooohh" 				:"https://imgur.com/7cX1T.gif",
+		"fotimido" 				:"https://imgur.com/NOqg2.gif",
+		"fovilvil" 				:"https://imgur.com/Yd5a9.gif",
+		"foXD" 					:"https://imgur.com/F5SFY.gif",
+		"foyay" 				:"https://imgur.com/JyqQF.gif"
 	}
 }
 
