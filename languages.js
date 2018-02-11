@@ -203,8 +203,8 @@ var texts = {
 		'es': 'Contactar'
 	},
 	"contactme1": {
-		'en': ['If you have a package you want share, a bug report, or any suggestion, send it to:',' <strong>antonio.jesus+hangoutsplugin@gmail.com</strong>'].join('<br />'),
-		'es': ['Si tienes algún paquete que quieras compartir, un reporte de bug, o alguna sugerencia, envíamela a:',' <strong>antonio.jesus+hangoutsplugin@gmail.com</strong>'].join('<br />')
+		'en': ['If you have a package that you want to share, a bug report, or any suggestion, send it to:',' <strong>antonio.jesus+hangoutsplugin at gmail.com</strong>'].join('<br />'),
+		'es': ['Si tienes algún paquete que quieras compartir, un reporte de bug, o alguna sugerencia, envíamela a:',' <strong>antonio.jesus+hangoutsplugin at gmail.com</strong>'].join('<br />')
 	},
 	"addpackages": {
 		'en': 'Add packages',
