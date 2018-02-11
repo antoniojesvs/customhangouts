@@ -165,7 +165,34 @@ var otrosPackage = {
 		"ot1¬¬" 				:"https://i.imgur.com/86BmyXn.png",
 		"otñamñam"				:"https://i.imgur.com/HWmJOMX.gif",
 		"otñañaña"				:"https://i.imgur.com/2jHGzq4.gif",
-		"otñeee"				:"https://i.imgur.com/6eqHnQs.gif"
+		"otñeee"				:"https://i.imgur.com/6eqHnQs.gif",
+		"otaussiecongaparrot"	:"https://i.imgur.com/oRnBy9H.gif",
+		"otbeerparrot"			:"https://i.imgur.com/sYrjE6o.gif",
+		"otblondeparrot"		:"https://i.imgur.com/xfXuPsY.gif",
+		"otcensoredparrot"		:"https://i.imgur.com/E1mDXef.gif",
+		"otchristmasparrot"		:"https://i.imgur.com/FVXvx2a.gif",
+		"otcoffeparrot"			:"https://i.imgur.com/pa9SC7u.gif",
+		"otconfusedparrot"		:"https://i.imgur.com/Pz5vFTK.gif",
+		"otcongaparrot"			:"https://i.imgur.com/mrN2HMj.gif",
+		"otdealwithitparrot"	:"https://i.imgur.com/JXmIkm1.gif",
+		"otloveparrot"			:"https://i.imgur.com/PL3W1R2.gif",
+		"otpartyparrot"			:"https://i.imgur.com/UKxJaLp.gif",
+		"otprocongaparrot"		:"https://i.imgur.com/XDRWfzI.gif",
+		"otsadparrot"			:"https://i.imgur.com/64EfKTJ.gif",
+		"otsleepparrot"			:"https://i.imgur.com/Mlkq8Hs.gif",
+		"otsheeplgbt"			:"https://i.imgur.com/PsBJ4DN.gif",
+		"ottotorohulahoop"		:"https://i.imgur.com/oJgNSzH.gif",
+		"ottotorocomba"			:"https://i.imgur.com/KDXrYee.gif",
+		"otnuse"				:"https://i.imgur.com/seGsTK8.gif",
+		"otpanic"				:"https://i.imgur.com/oa9ebot.png",
+		"otzombi"				:"https://i.imgur.com/k4twOlw.gif",
+		"otnoming"				:"https://i.imgur.com/MTUjzYT.gif",
+		"otmrburns"				:"https://i.imgur.com/OIUmyvf.gif",
+		"otunicorn"				:"https://i.imgur.com/OU593zU.gif",
+		"othyped"				:"https://i.imgur.com/HCPD6KE.png",
+		"otshrug"				:"¯\\_(ツ)_/¯",
+		"otfliptable"			:" (╯°□°）╯︵ ┻━┻"
+
 	}
 }
 

@@ -219,8 +219,8 @@ var texts = {
 		'es': 'Ve a la sección "Paquetes extra":'
 	},
 	"addpackages3": {
-		'en': 'Paste the url to the package (1)[direct link, like the examples], click "Add" button (2), and click "Save" button (3). You also can modify directly de content of the editor (4), for example to copy/paste all the content to another pc, or to create a backup; But be careful with the necessary "[", "]" and ","',
-		'es': 'Pega la url del packete (1)[link directo, como los ejemplos], pulsa el botón "Añadir" (2), y pulsa "Guardar" (3). También puedes modificar directamente el contenido del editor (4), por ejemplo hacer copiar/pegar de todo el contenido a otro ordenador, o para crear una copia de seguridad; pero ten cuidado con los caracteres "[", "]" y "," necesarios.'
+		'en': 'Paste the url to the package (1)[dropbox link, adding "?raw=1" to the end, like the examples], click "Add" button (2), and click "Save" button (3). You also can modify directly de content of the editor (4), for example to copy/paste all the content to another pc, or to create a backup; But be careful with the necessary "[", "]" and ","',
+		'es': 'Pega la url del packete (1)[link de dropbox, añadiendo "?raw=1" al final, como los ejemplos], pulsa el botón "Añadir" (2), y pulsa "Guardar" (3). También puedes modificar directamente el contenido del editor (4), por ejemplo hacer copiar/pegar de todo el contenido a otro ordenador, o para crear una copia de seguridad; pero ten cuidado con los caracteres "[", "]" y "," necesarios.'
 	},
 	"checkpackemotis": {
 		'en': 'Check package emoticons',
@@ -263,8 +263,8 @@ var texts = {
 		'es': 'Crear paquetes nuevos'
 	},
 	"createpackage1": {
-		'en': 'You can create your own packages. Maybe you want to extend or translate one of the default packages (1), or create a new one to share it with your friends. The package must be uploaded to a public server, for example dropbox as in the examples (2), in order to be added (3). If you think that your packages can be interesting to other people, send them to me (4) and I will publish the urls here.',
-		'es': 'Puedes crear tus propios paquetes. Quizás quieres extender o traducir uno de los paquetes por defecto (1), o crear uno nuevo para compartirlo con tus amigos. El paquete se debe subir a un servidor público, por ejemplo dropbox como en los ejemplos (2), para poder ser añadido (3). Si crees que tus paquetes le pueden interesar a otras personas, envíamelos (4) y publicaré aquí las urls'
+		'en': 'You can create your own packages. Maybe you want to extend or translate one of the default packages (1), or create a new one to share it with your friends. The package must be uploaded to dropbox as in the examples (2) in order to be added (3). If you think that your packages can be interesting to other people, send them to me (4) and I will publish the urls here.',
+		'es': 'Puedes crear tus propios paquetes. Quizás quieres extender o traducir uno de los paquetes por defecto (1), o crear uno nuevo para compartirlo con tus amigos. El paquete se debe subir a dropbox como en los ejemplos (2) para poder ser añadido (3). Si crees que tus paquetes le pueden interesar a otras personas, envíamelos (4) y publicaré aquí las urls'
 	},
 	"changefontstyle": {
 		'en': 'Change font style',
@@ -470,9 +470,9 @@ var texts = {
 		'en': 'http://i.imgur.com/nwudu2G.png',
 		'es': 'http://i.imgur.com/WbFu6tc.png'
 	},
-	"http://i.imgur.com/HqJEjOs.png": {
-		'en': 'http://i.imgur.com/0hF2k7E.png',
-		'es': 'http://i.imgur.com/HqJEjOs.png'
+	"https://i.imgur.com/QVYe7bp.png": {
+		'en': 'https://i.imgur.com/NTLbvLv.png',
+		'es': 'https://i.imgur.com/QVYe7bp.png'
 	},
 	"http://i.imgur.com/Okk5rnA.png": {
 		'en': 'http://i.imgur.com/S5qGYxO.png',
