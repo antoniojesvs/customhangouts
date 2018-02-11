@@ -222,3 +222,33 @@ fieldset img {
 #packages {
 	min-height: 325px;
 }
+
+.paypal {
+	height: 50px;
+}
+
+.crypto {
+	display: flex;
+	align-items: center;
+	justify-content:  space-around;
+	font-family: sans-serif;
+	font-weight:  bold;
+	font-size: 15px;
+	text-align: center;
+}
+
+.doge {
+	color: #BAA032;
+}
+
+.nano {
+	color: #4a90e2;
+}
+
+.stellar {
+	color: #5B6A72;
+}
+
+.wallets p {
+	text-align: left;
+}
