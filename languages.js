@@ -96,11 +96,13 @@ var texts = {
 		'en': ['First of all:', '',
 				// '!) Contextual menu options, after right click, do not work if you have the <a href="https://chrome.google.com/webstore/detail/hangouts/nckgahadagoaajjgafhacjanaoiihapd">Official Google Hangouts Extension</a> installed.',
 				'!) Make sure you do NOT have the <a href="https://chrome.google.com/webstore/detail/hangouts/nckgahadagoaajjgafhacjanaoiihapd">Official Google Hangouts Extension</a> installed, because it is incompatible.',
-				'!) Make sure to have gmail hangouts active, or follow <a href="https://support.google.com/hangouts/answer/3115176?hl=en">this guide</a>.'].join('<br />'),
+				'!) Make sure to have gmail hangouts active, or follow <a href="https://support.google.com/hangouts/answer/3115176?hl=en">this guide</a>.', '',
+				'<strong>News!</strong>: Blogs Package available (created by Yana Li):','', '(<a href="https://dl.dropbox.com/s/f2a115nqj2m5d1y/blobs.js">https://dl.dropbox.com/s/f2a115nqj2m5d1y/blobs.js</a>) <strong><a href="#addpackages">Add package</a></strong>'].join('<br />'),
 		'es': ['Antes de empezar:', '',
 				// '!) Las opciones del menú contextual, tras pulsar el botón derecho de ratón, no funcionan si tienes instalada la <a href="https://chrome.google.com/webstore/detail/hangouts/nckgahadagoaajjgafhacjanaoiihapd">Extension oficial Google Hangouts</a>',
 				'!) Asegurate de NO tener instalada la <a href="https://chrome.google.com/webstore/detail/hangouts/nckgahadagoaajjgafhacjanaoiihapd">Extension oficial Google Hangouts</a>, ya que es incompatible.',
-				'!) Asegurate de tener activos los hangouts en gmail, o sigue <a href="https://support.google.com/hangouts/answer/3115176?hl=es">esta guia</a>.'].join('<br />')
+				'!) Asegurate de tener activos los hangouts en gmail, o sigue <a href="https://support.google.com/hangouts/answer/3115176?hl=es">esta guia</a>.', '',
+				'<strong>¡Novedades!</strong>: Paquete Blobs disponible (creado por Yana Li):','', '(<a href="https://dl.dropbox.com/s/f2a115nqj2m5d1y/blobs.js">https://dl.dropbox.com/s/f2a115nqj2m5d1y/blobs.js</a>) <strong><a href="#addpackages">Añadir paquete</a></strong>'].join('<br />')
 	},
 	"insertemoticons1": {
 		'en': ['There are three ways to insert emoticons:', '',
@@ -208,7 +210,7 @@ var texts = {
 	},
 	"addpackages": {
 		'en': 'Add packages',
-		'es': 'Añadir packetes'
+		'es': 'Añadir paquetes'
 	},
 	"addpackages1": {
 		'en': 'To add a package, open the ',
@@ -219,8 +221,8 @@ var texts = {
 		'es': 'Ve a la sección "Paquetes extra":'
 	},
 	"addpackages3": {
-		'en': 'Paste the url to the package (1)[dropbox link, adding "?raw=1" to the end, like the examples], click "Add" button (2), and click "Save" button (3). You also can modify directly de content of the editor (4), for example to copy/paste all the content to another pc, or to create a backup; But be careful with the necessary "[", "]" and ","',
-		'es': 'Pega la url del packete (1)[link de dropbox, añadiendo "?raw=1" al final, como los ejemplos], pulsa el botón "Añadir" (2), y pulsa "Guardar" (3). También puedes modificar directamente el contenido del editor (4), por ejemplo hacer copiar/pegar de todo el contenido a otro ordenador, o para crear una copia de seguridad; pero ten cuidado con los caracteres "[", "]" y "," necesarios.'
+		'en': 'Paste the url to the package (1)[dropbox link, replacing www with dl, like the examples], click "Add" button (2), and click "Save" button (3). You also can modify directly de content of the editor (4), for example to copy/paste all the content to another pc, or to create a backup; But be careful with the necessary "[", "]" and ","',
+		'es': 'Pega la url del paquete (1)[link de dropbox, reemplazando www con dl, como los ejemplos], pulsa el botón "Añadir" (2), y pulsa "Guardar" (3). También puedes modificar directamente el contenido del editor (4), por ejemplo hacer copiar/pegar de todo el contenido a otro ordenador, o para crear una copia de seguridad; pero ten cuidado con los caracteres "[", "]" y "," necesarios.'
 	},
 	"checkpackemotis": {
 		'en': 'Check package emoticons',
@@ -470,9 +472,9 @@ var texts = {
 		'en': 'http://i.imgur.com/nwudu2G.png',
 		'es': 'http://i.imgur.com/WbFu6tc.png'
 	},
-	"https://i.imgur.com/QVYe7bp.png": {
-		'en': 'https://i.imgur.com/NTLbvLv.png',
-		'es': 'https://i.imgur.com/QVYe7bp.png'
+	"https://i.imgur.com/BU6ioS2.png": {
+		'en': 'https://i.imgur.com/dVjrare.png',
+		'es': 'https://i.imgur.com/BU6ioS2.png'
 	},
 	"http://i.imgur.com/Okk5rnA.png": {
 		'en': 'http://i.imgur.com/S5qGYxO.png',
